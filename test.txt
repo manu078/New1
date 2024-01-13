@@ -1,0 +1,72 @@
+
+Testing C:\Users\Z004H61R\git\vulnerable-java-application...
+
+Tested 62 dependencies for known issues, found 18 issues, 34 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade net.logstash.logback:logstash-logback-encoder@7.2 to net.logstash.logback:logstash-logback-encoder@7.3 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038424] in com.fasterxml.jackson.core:jackson-databind@2.13.3
+    introduced by net.logstash.logback:logstash-logback-encoder@7.2 > com.fasterxml.jackson.core:jackson-databind@2.13.3 and 4 other path(s)
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038426] in com.fasterxml.jackson.core:jackson-databind@2.13.3
+    introduced by net.logstash.logback:logstash-logback-encoder@7.2 > com.fasterxml.jackson.core:jackson-databind@2.13.3 and 4 other path(s)
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@2.7.3 to org.springframework.boot:spring-boot-starter-test@3.1.0 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-3369748] in net.minidev:json-smart@2.4.8
+    introduced by org.springframework.boot:spring-boot-starter-test@2.7.3 > com.jayway.jsonpath:json-path@2.7.0 > net.minidev:json-smart@2.4.8
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-5564390] in org.springframework.boot:spring-boot-autoconfigure@2.7.3
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.springframework.boot:spring-boot-autoconfigure@2.7.3 and 1 other path(s)
+
+  Upgrade org.springframework.boot:spring-boot-starter-web@2.7.3 to org.springframework.boot:spring-boot-starter-web@3.0.0 to fix
+  ✗ Stack-based Buffer Overflow [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-3016888] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  ✗ Stack-based Buffer Overflow [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-3016889] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  ✗ Stack-based Buffer Overflow [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-3113851] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  ✗ HTTP Request Smuggling [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-3097829] in org.apache.tomcat.embed:tomcat-embed-core@9.0.65
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter-tomcat@2.7.3 > org.apache.tomcat.embed:tomcat-embed-core@9.0.65 and 1 other path(s)
+  ✗ Stack-based Buffer Overflow [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-3016891] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-5422217] in org.springframework:spring-expression@5.3.22
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework:spring-webmvc@5.3.22 > org.springframework:spring-expression@5.3.22 and 1 other path(s)
+  ✗ Unprotected Transport of Credentials [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-3369687] in org.apache.tomcat.embed:tomcat-embed-core@9.0.65
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter-tomcat@2.7.3 > org.apache.tomcat.embed:tomcat-embed-core@9.0.65 and 1 other path(s)
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-3369749] in org.springframework:spring-expression@5.3.22
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework:spring-webmvc@5.3.22 > org.springframework:spring-expression@5.3.22 and 1 other path(s)
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038426] in com.fasterxml.jackson.core:jackson-databind@2.13.3
+    introduced by net.logstash.logback:logstash-logback-encoder@7.2 > com.fasterxml.jackson.core:jackson-databind@2.13.3 and 4 other path(s)
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-3326459] in org.apache.tomcat.embed:tomcat-embed-core@9.0.65
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter-tomcat@2.7.3 > org.apache.tomcat.embed:tomcat-embed-core@9.0.65 and 1 other path(s)
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONCORE-3038424] in com.fasterxml.jackson.core:jackson-databind@2.13.3
+    introduced by net.logstash.logback:logstash-logback-encoder@7.2 > com.fasterxml.jackson.core:jackson-databind@2.13.3 and 4 other path(s)
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-2806360] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-5564390] in org.springframework.boot:spring-boot-autoconfigure@2.7.3
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.springframework.boot:spring-boot-autoconfigure@2.7.3 and 1 other path(s)
+  ✗ Improper Input Validation [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-3225086] in org.apache.tomcat.embed:tomcat-embed-core@9.0.65
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter-tomcat@2.7.3 > org.apache.tomcat.embed:tomcat-embed-core@9.0.65 and 1 other path(s)
+  ✗ Improper Access Control [Critical Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-3369852] in org.springframework:spring-webmvc@5.3.22
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework:spring-webmvc@5.3.22
+
+
+Issues with no direct upgrade or patch:
+  ✗ Access Restriction Bypass [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-5862028] in org.apache.tomcat.embed:tomcat-embed-core@9.0.65
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter-tomcat@2.7.3 > org.apache.tomcat.embed:tomcat-embed-core@9.0.65 and 1 other path(s)
+  This issue was fixed in versions: 8.5.93, 9.0.80, 10.1.13, 11.0.0-M11
+  ✗ Arbitrary Code Execution [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGYAML-3152153] in org.yaml:snakeyaml@1.30
+    introduced by org.springframework.boot:spring-boot-starter-web@2.7.3 > org.springframework.boot:spring-boot-starter@2.7.3 > org.yaml:snakeyaml@1.30
+  This issue was fixed in versions: 2.0
+
+
+
+Organization:      nikita.taneja
+Package manager:   gradle
+Target file:       build.gradle
+Project name:      vulnerable-java-application
+Open source:       no
+Project path:      C:\Users\Z004H61R\git\vulnerable-java-application
+Licenses:          enabled
+
+
